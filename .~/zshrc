@@ -1,0 +1,2 @@
+PATH="/Users/arkajyotidas/fvm/bin:$PATH"
+PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"   
