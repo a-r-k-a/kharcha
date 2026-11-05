@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart' hide ScaffoldMessenger;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kharcha/app/router/app_route.dart';
@@ -18,8 +17,7 @@ import 'package:kharcha/features/profile/domain/entities/user_profile.dart';
 import 'package:kharcha/features/profile/presentation/bloc/profile_summary_cubit.dart';
 import 'package:kharcha/features/profile/presentation/bloc/session_cubit.dart';
 import 'package:kharcha/features/settings/presentation/widgets/appearance_controls.dart';
-import 'package:material_ui/material_ui.dart'
-    hide showDialog, Scaffold, AlertDialog, TextField, InputDecoration;
+import 'package:material_ui/material_ui.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
