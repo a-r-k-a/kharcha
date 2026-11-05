@@ -1,8 +1,30 @@
-
-# FVM Version Cache
-.fvm/
-claude.md
-ROADMAP.md
-ARCHITECTURE.md
+# Flutter / Dart
 .dart_tool/
-.metadata
+.packages
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
